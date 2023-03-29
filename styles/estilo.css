@@ -1,0 +1,289 @@
+/*Font-size general*/
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+h3{
+    font-size: 1em;
+}
+h4{
+    font-size: 1em;
+}
+
+/*Body*/
+body {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Header*/
+header {
+    background-color: rgb(119, 162, 241);
+    display: flex;
+}
+
+header .title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header .title{
+    padding: 0.5em 1em 0.5em 2em;
+}
+
+/*Barra de navegacion*/
+header nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+header a:link {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:visited{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header nav ul{
+    padding: 0.75em 1.5em 0.5em 0em;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    padding-right: 1.5em;
+}
+
+
+/*Main general*/
+main{
+    display: inline;
+    position: absolute;
+}
+
+/*Contenido principal*/
+#content{
+    display: inline-block;
+    position: relative;
+    padding: 1em 1.5em 1em 1em;
+    width: 60vw;
+    overflow: auto;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#ed, #client{
+    font-size: 0.75em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#ed h4,
+#client h4{
+    font-size: 1.5em;
+}
+
+#ed {
+    float: left;
+}
+
+#client {
+    float: right;
+}
+
+hr {
+    clear: both;
+}
+
+/*Tabla*/
+table {
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 50em;
+}
+table tr th {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+table td {
+    max-width: 25em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+thead th {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/*Boton de enviar*/
+.btn-enviar {
+    background-color: rgb(119, 162, 241);
+    max-width: 10em;
+    padding: 0.1em 0.5em 0.1em 0.5em;
+    display: block;
+    margin-top: 1.5em;
+}
+
+.btn-enviar a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-enviar a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/*Aside izquiero*/
+#aside {
+    float: left;
+    position: relative;
+    width: 17vw;
+    overflow: auto;
+}
+
+/*Representante de ventas*/
+.rep-ventas {
+    background-color: rgb(224, 224, 224);
+    color: rgb(105, 105, 105);
+    padding: 1em;
+}
+
+/*Barra de navegacion aside*/
+#aside nav {
+    margin: 1.5em 0 0 0;
+    background-color: rgb(241, 241, 241);
+    padding: 1.5em;
+    font-weight: bold;
+}
+
+#aside nav ul{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+/*Mensajes Recientes*/
+.recent-msg {
+    background-color: rgb(241, 241, 241);
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.recent-msg h3{
+    background-color: rgb(153, 185, 243);
+    padding: 1em 10em 1em 1em;
+}
+
+.recent-msg ul {
+    background-color: #ffffff;
+}
+
+.recent-msg ul p {
+    font-size: 0.75em;
+    padding: 0 0 0 4.5em;
+}
+
+.recent-msg ul li {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 1em 1em 0.2em 0;
+}
+
+.recent-msg ul img {
+    float: left;
+}
+
+/*Aside derecho*/
+aside {
+    float: right;
+    position: relative;
+    width: 21vw;
+    overflow: auto;
+}
+
+aside h3{
+    background-color: rgb(153, 185, 243);
+    padding: 1em 0em 1em 1em;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+/*Cambios Semanales*/
+aside .changes {
+    background-color: rgb(241, 241, 241);
+    padding: 1em;
+}
+
+aside .changes ul {
+    background-color: #ffffff;
+}
+
+aside .changes ul li{
+    padding: 0.5em 0 1em 0.5em;
+}
+
+aside .changes span {
+    font-size: 2em;
+    color: gray;
+    max-width: 1em;
+    float: left;
+    padding: 0 1em 0 0;
+}
+
+aside .changes ul li p{
+    padding: 0.5em 0 0 3em;
+}
+
+/*Mejores vendedores*/
+aside .sold {
+    margin-top: 2em;
+    background-color: rgb(241, 241, 241);
+    padding: 1em;
+}
+
+aside .sold ul {
+    display: inline-block;
+}
+
+aside .sold img {
+    float: left;
+}
+
+aside .sold ul {
+    background-color: #ffffff;
+}
+
+aside .sold ul p {
+    font-size: 0.75em;
+    padding: 1em 0 0 4.5em;
+    margin-bottom: 4em;
+}
+
+aside .sold ul li {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 1em 1em 0.2em 0;
+}
